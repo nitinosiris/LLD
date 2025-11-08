@@ -1,0 +1,56 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="c7_NXPpmi3DBjnW6xcYB">
+    <mxGraphModel dx="1181" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EKNPL0JxFBShmbNO0kKK-1" value="Requirements" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="280" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="EKNPL0JxFBShmbNO0kKK-2" value="1 Extrance &amp;amp; 1 Exit" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="EKNPL0JxFBShmbNO0kKK-1">
+          <mxGeometry x="15" y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EKNPL0JxFBShmbNO0kKK-3" value="Types of SPOT&amp;nbsp;&lt;div&gt;1. Two wheeler&lt;/div&gt;&lt;div&gt;2. Four Wheeler&lt;/div&gt;&lt;div&gt;3. Three Wheeler&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="EKNPL0JxFBShmbNO0kKK-1">
+          <mxGeometry x="25" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EKNPL0JxFBShmbNO0kKK-4" value="Objects&lt;div&gt;1. Vehicle&lt;/div&gt;&lt;div&gt;2. Ticket&lt;/div&gt;&lt;div&gt;3. Entrance Gate&lt;/div&gt;&lt;div&gt;4. Parking Spot&lt;/div&gt;&lt;div&gt;5. Exit Gate&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="270" y="280" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="EKNPL0JxFBShmbNO0kKK-5" value="Parking Charge : Hourly or per Minute" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EKNPL0JxFBShmbNO0kKK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EKNPL0JxFBShmbNO0kKK-6" target="EKNPL0JxFBShmbNO0kKK-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EKNPL0JxFBShmbNO0kKK-6" value="Vehicle&lt;div&gt;(Done)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EKNPL0JxFBShmbNO0kKK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EKNPL0JxFBShmbNO0kKK-7" target="EKNPL0JxFBShmbNO0kKK-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EKNPL0JxFBShmbNO0kKK-11" value="Ticket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EKNPL0JxFBShmbNO0kKK-10">
+          <mxGeometry x="-0.0743" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKNPL0JxFBShmbNO0kKK-7" value="Extrance Gate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EKNPL0JxFBShmbNO0kKK-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EKNPL0JxFBShmbNO0kKK-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKNPL0JxFBShmbNO0kKK-9" value="Parking Spot&lt;div&gt;(Done)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EKNPL0JxFBShmbNO0kKK-13" value="Exit Gate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EKNPL0JxFBShmbNO0kKK-14" value="Ticket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="560" y="570" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
