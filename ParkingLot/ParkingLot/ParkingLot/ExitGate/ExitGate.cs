@@ -10,4 +10,10 @@ public class ExitGate(CostComputationFactory costComputationFactory)
             return costComputationFactory.GetCostComputation(ticket.ParkingSpot.Vehicle.VehicleType).GetPrice(ticket);
         return 0;
     }
+
+    public void FreeParking(Ticket.Ticket ticket)
+    {
+        if (ticket.ParkingSpot.Vehicle != null)
+            ticket.ParkingSpot.RemoveVehicle();
+    }
 }

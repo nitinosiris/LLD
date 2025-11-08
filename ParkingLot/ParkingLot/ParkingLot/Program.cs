@@ -21,6 +21,8 @@ var ticket = entranceGate.GenerateTicket(spot);
 var exitGate = new ExitGate(new CostComputationFactory());
 
 var price = exitGate.PriceCalculation(ticket);
+exitGate.FreeParking(ticket);
+
 Console.WriteLine(price);
 
 
