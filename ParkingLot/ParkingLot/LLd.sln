@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingLot", "ParkingLot\Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe", "TicTacToe\TicTacToe.csproj", "{84C7CB38-59B9-47C3-AFA6-D1D5B5FFE690}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elevator", "Elevator\Elevator.csproj", "{04D33474-EED5-475E-A1DA-09597532CBF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LadderAndSnake", "LadderAndSnake\LadderAndSnake.csproj", "{7708FA49-1D64-4E1E-B6BB-866AF8F48EBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{84C7CB38-59B9-47C3-AFA6-D1D5B5FFE690}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84C7CB38-59B9-47C3-AFA6-D1D5B5FFE690}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84C7CB38-59B9-47C3-AFA6-D1D5B5FFE690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D33474-EED5-475E-A1DA-09597532CBF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D33474-EED5-475E-A1DA-09597532CBF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D33474-EED5-475E-A1DA-09597532CBF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D33474-EED5-475E-A1DA-09597532CBF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7708FA49-1D64-4E1E-B6BB-866AF8F48EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7708FA49-1D64-4E1E-B6BB-866AF8F48EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7708FA49-1D64-4E1E-B6BB-866AF8F48EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7708FA49-1D64-4E1E-B6BB-866AF8F48EBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
