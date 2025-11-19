@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elevator", "Elevator\Elevat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LadderAndSnake", "LadderAndSnake\LadderAndSnake.csproj", "{7708FA49-1D64-4E1E-B6BB-866AF8F48EBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMyShow", "BookMyShow\BookMyShow.csproj", "{B8D13A42-72AD-4E6D-8ADC-35C7653FED85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{7708FA49-1D64-4E1E-B6BB-866AF8F48EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7708FA49-1D64-4E1E-B6BB-866AF8F48EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7708FA49-1D64-4E1E-B6BB-866AF8F48EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8D13A42-72AD-4E6D-8ADC-35C7653FED85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D13A42-72AD-4E6D-8ADC-35C7653FED85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D13A42-72AD-4E6D-8ADC-35C7653FED85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D13A42-72AD-4E6D-8ADC-35C7653FED85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
