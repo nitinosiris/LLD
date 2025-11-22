@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LadderAndSnake", "LadderAnd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMyShow", "BookMyShow\BookMyShow.csproj", "{B8D13A42-72AD-4E6D-8ADC-35C7653FED85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM", "ATM\ATM.csproj", "{967BEC70-3554-4781-91BC-40490FA7C857}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{B8D13A42-72AD-4E6D-8ADC-35C7653FED85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8D13A42-72AD-4E6D-8ADC-35C7653FED85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8D13A42-72AD-4E6D-8ADC-35C7653FED85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{967BEC70-3554-4781-91BC-40490FA7C857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{967BEC70-3554-4781-91BC-40490FA7C857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{967BEC70-3554-4781-91BC-40490FA7C857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{967BEC70-3554-4781-91BC-40490FA7C857}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
